@@ -5,7 +5,7 @@ const inventory = require("./inventoryData")
 
 
 function carDetailsOfId33(inventory){
-    const filteredItem = inventory.filter(function(item) {
+    const filteredItem = inventory.filter(item => {
         return item.id == 33;
     })
 
